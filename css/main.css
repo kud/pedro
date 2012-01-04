@@ -1,0 +1,68 @@
+body
+{
+    position: relative;
+    width: 600px;
+    margin: 50px auto;
+}
+
+.cake
+{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background: url('./../img/cake.png') no-repeat;
+    z-index: 1;
+}
+
+.pedro
+{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('./../img/pedro.png') no-repeat;
+    z-index: 10;
+}
+
+.pedro.left.step1
+{
+    background-position: 0 -48px;
+}
+
+.pedro.left.step2
+{
+    background-position: -48px -48px;
+}
+
+.pedro.right.step1
+{
+    background-position: 0 0;
+}
+
+.pedro.right.step2
+{
+    background-position: -48px 0;
+}
+
+.pedro.top.step1 
+{
+    background-position: 0 -96px;
+}
+
+.pedro.top.step2
+{
+    background-position: -48px -96px;
+}
+
+.pedro.bottom.step1
+{
+    background-position: 0 -144px;
+}
+
+.pedro.bottom.step2
+{
+    background-position: -48px -144px;
+}
